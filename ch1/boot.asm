@@ -27,3 +27,5 @@ dw 0xaa55 ; 结束标志
 ;底交给这段引导代码。到此为止，计算机不再由BIOS中固有的程序来控制，而变成由操作系统的一部分来控制。
 
 ;$-$$表示本行距离程序开始处的相对距离
+
+;about int 10h: https://blog.csdn.net/tsyeyuanfeng1/article/details/9310767

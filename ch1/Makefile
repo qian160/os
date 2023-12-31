@@ -7,4 +7,4 @@ all:
 	@dd if=boot.bin of=a.img bs=512 count=1 conv=notrunc
 
 clean:
-	@rm boot.bin devfd0 a.img bochsout.txt
+	-@rm boot.bin devfd0 a.img bochsout.txt
